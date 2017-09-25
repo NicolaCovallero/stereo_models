@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<model>
+  <name>Yellow matress textured</name>
+  <version>1.0</version>
+  <sdf version="1.4">model-1_4.sdf</sdf>
+  <sdf version="1.5">model.sdf</sdf>
+
+  <author>
+    <name>Nicola Covallero</name>
+    <email>nicolacovallero92@gmail.com</email>
+  </author>
+
+  <description>
+    Lab little mattress for compliant grasping over the table. 
+    Modified from the yello matress model of Sergi Foix.
+  </description>
+</model>
