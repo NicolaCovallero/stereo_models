@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="Checkerboard">
+      <pose>0 0 0. 0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+			<pose>0 0 0 0 0 0</pose>
+			  <geometry>
+				<mesh><uri>model://chess_plane/meshes/chess_plane.dae</uri></mesh>
+			  </geometry>
+		</visual>
+		  <collision name="collision">
+			<pose>0 0 0  0 0 0</pose>
+			  <geometry>
+				<!--<mesh><uri>model://chess_plane/meshes/chess_plane.stl</uri></mesh>-->
+        <box>
+          <size>0.25 0.25 0.05</size>
+        </box>
+			  </geometry>
+		  </collision>
+      </link>
+    </model>
+</sdf>
